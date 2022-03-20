@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styleofsearch.css">
+
+<head>
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="otherpages">
+        <a href="百度搜索.html" class="imgs">百度搜索</a>
+    </div>
+    <div class="imagefield">
+        <img id="image" src="./images/baidu.png">
+    </div>
+    <form class="searchfield" action="https://image.baidu.com/search/index">
+        <input id="ele1" type="text" name="tn" value="baiduimage">
+        <input id="ele2" type="text" name="cl" value="2">
+        <input id="inputfield" type="text" name="word">
+        <input id="submitfield" type="submit" value="百度一下">
+    </form>
+
+
+</body>
+
+</html>
+
+<style>
+    #ele1,
+    #ele2 {
+        display: none;
+    }
+    
+    body {
+        background: url("images/img_backgroud.jpg");
+    }
+</style>

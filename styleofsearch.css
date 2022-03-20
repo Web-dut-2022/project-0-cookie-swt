@@ -1,0 +1,36 @@
+.searchfield {
+    text-align: center;
+    margin: 0 100px 100px 100px;
+    padding: 10px 100px 100px 100px;
+}
+
+.imagefield {
+    text-align: center;
+}
+
+#image {
+    width: 400px;
+    height: 150px;
+}
+
+#inputfield {
+    border-color: #4E6EF2;
+    border-style: solid;
+    border-radius: 20px 0 0 20px;
+    height: 30px;
+    width: 400px;
+}
+
+#submitfield {
+    background-color: #4E6EF2;
+    border-color: #4E6EF2;
+    border-style: solid;
+    color: aliceblue;
+    border-radius: 0 20px 20px 0;
+    height: 35px;
+    width: 100px;
+}
+
+.otherpages {
+    text-align: right;
+}

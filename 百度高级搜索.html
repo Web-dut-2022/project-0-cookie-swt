@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styleofsearch.css">
+
+<head>
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="otherpages">
+        <a href="百度搜索.html" class="imgs">百度搜索</a>
+    </div>
+    <div class="imagefield">
+        <img id="image" src="./images/baidu.png">
+    </div>
+    <form class="searchfield" action="https://www.baidu.com/s">
+        <div id="row1">
+            <input id="inputfield1" type="text" placeholder="包含全部关键词" name="q1">
+            <input id="inputfield2" type="text" placeholder="包含完整关键词" name="q2">
+        </div>
+        <div id="row2">
+            <input id="inputfield3" type="text" placeholder="包含任意关键词" name="q3">
+            <input id="inputfield4" type="text" placeholder="不包含关键词" name="q4">
+        </div>
+        <input id="submitfield" type="submit" value="百度一下">
+    </form>
+</body>
+
+</html>
+<style>
+    #row1,
+    #row2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #inputfield1,
+    #inputfield3 {
+        border-color: #4E6EF2;
+        border-style: solid;
+        border-radius: 20px 0 0 20px;
+        height: 30px;
+        width: 200px;
+    }
+    
+    #inputfield2,
+    #inputfield4 {
+        border-color: #4E6EF2;
+        border-style: solid;
+        border-radius: 0 20px 20px 0;
+        height: 30px;
+        width: 200px;
+    }
+    
+    #submitfield {
+        background-color: #4E6EF2;
+        border-style: solid;
+        border-color: #4E6EF2;
+        border-radius: 20px 20px;
+        height: 35px;
+        width: 200px;
+    }
+    
+    body {
+        background: url("images/adv_backgroud.jpg");
+        background-size: cover;
+    }
+</style>
